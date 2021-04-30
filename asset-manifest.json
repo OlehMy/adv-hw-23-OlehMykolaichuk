@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/adv-hw-23-OlehMykolaichuk/static/css/main.509e5bab.chunk.css",
+    "main.js": "/adv-hw-23-OlehMykolaichuk/static/js/main.679e069e.chunk.js",
+    "main.js.map": "/adv-hw-23-OlehMykolaichuk/static/js/main.679e069e.chunk.js.map",
+    "runtime-main.js": "/adv-hw-23-OlehMykolaichuk/static/js/runtime-main.00f9379e.js",
+    "runtime-main.js.map": "/adv-hw-23-OlehMykolaichuk/static/js/runtime-main.00f9379e.js.map",
+    "static/js/2.0d007fcc.chunk.js": "/adv-hw-23-OlehMykolaichuk/static/js/2.0d007fcc.chunk.js",
+    "static/js/2.0d007fcc.chunk.js.map": "/adv-hw-23-OlehMykolaichuk/static/js/2.0d007fcc.chunk.js.map",
+    "static/js/3.97bb87f9.chunk.js": "/adv-hw-23-OlehMykolaichuk/static/js/3.97bb87f9.chunk.js",
+    "static/js/3.97bb87f9.chunk.js.map": "/adv-hw-23-OlehMykolaichuk/static/js/3.97bb87f9.chunk.js.map",
+    "index.html": "/adv-hw-23-OlehMykolaichuk/index.html",
+    "static/css/main.509e5bab.chunk.css.map": "/adv-hw-23-OlehMykolaichuk/static/css/main.509e5bab.chunk.css.map",
+    "static/js/2.0d007fcc.chunk.js.LICENSE.txt": "/adv-hw-23-OlehMykolaichuk/static/js/2.0d007fcc.chunk.js.LICENSE.txt",
+    "static/media/morty.81d7c44c.jpg": "/adv-hw-23-OlehMykolaichuk/static/media/morty.81d7c44c.jpg",
+    "static/media/mr-poopybutthole.bb7c19f4.jpg": "/adv-hw-23-OlehMykolaichuk/static/media/mr-poopybutthole.bb7c19f4.jpg",
+    "static/media/photo11.aea5cd50.jpg": "/adv-hw-23-OlehMykolaichuk/static/media/photo11.aea5cd50.jpg",
+    "static/media/photo13.d2493c1e.jpg": "/adv-hw-23-OlehMykolaichuk/static/media/photo13.d2493c1e.jpg",
+    "static/media/photo17.3894b531.jpg": "/adv-hw-23-OlehMykolaichuk/static/media/photo17.3894b531.jpg",
+    "static/media/rick.300a04ec.jpg": "/adv-hw-23-OlehMykolaichuk/static/media/rick.300a04ec.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00f9379e.js",
+    "static/js/2.0d007fcc.chunk.js",
+    "static/css/main.509e5bab.chunk.css",
+    "static/js/main.679e069e.chunk.js"
+  ]
+}
