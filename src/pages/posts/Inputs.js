@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import newPost from '../../store'
-import { useDispatch } from "react-redux";
+import {newPost} from '../../store'
+import {useDispatch} from "react-redux";
 import RickPhoto from '../../img/rick.jpg'
 import MortyPhoto from '../../img/morty.jpg'
 import MrPoopybuttholePhoto from '../../img/mr-poopybutthole.jpg'
@@ -30,7 +30,8 @@ const Inputs = (props) => {
     const [postText, setPostText] = useState();
     const [postImage, setPostImage] = useState();
 
-    const addNewPost = () => {
+    const addNewPost = (e) => {
+        e.preventDefault();
         dispatch(newPost({
             authorPhoto: authorPhoto,
             authorName: authorName,
@@ -41,7 +42,7 @@ const Inputs = (props) => {
             postComments: '',
             postReposts: '',
             postLikes: '',
-        }))
+        }));
     }
 
     const setPhotoAndNickname = (value) => {
@@ -73,7 +74,7 @@ const Inputs = (props) => {
                 <textarea className = "inputs__message" type = "text" onChange = {e => setPostText(e.target.value)} placeholder = "Message*"/>
             </div>
             <div className = "flex">
-                <button className = "inputs__button" onClick = {addNewPost} disabled = {authorName!=='Select author' && postText && postImage ? false : true}>add</button>                
+                <button className = "inputs__button" onClick = {addNewPost} disabled = {authorName && postText && postImage ? false : true}>add</button>                
             </div>
         </form>
     )

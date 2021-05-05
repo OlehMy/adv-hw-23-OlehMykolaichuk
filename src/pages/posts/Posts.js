@@ -14,7 +14,7 @@ const Posts = (props) => {
     return (
         <>
         {posts.map((post) => (
-        <article className = "post flex">
+        <article className = "post flex" key = {post.authorNickname}>
             <div className = "post__author-photo flex">
                 <img src = {post.authorPhoto} alt = {"authorphoto"} />
             </div>
